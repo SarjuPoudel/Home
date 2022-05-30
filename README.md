@@ -1,2 +1,2 @@
 # Home
-Adding this Readme to see what is happening
+This Project is custom project prepared by Sarju to improve the webdevelopment skills and present for public use. 
