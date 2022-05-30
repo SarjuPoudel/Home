@@ -38,12 +38,64 @@ h1  {text-align: center;
     background-color:#04AA6D;
     color:White;
 }
-p {
-    position:relative;
-    z-index: 1000;
-    top:80px;
-}
+
 .contact-form{
     padding:10px 10px;
     line-height: 50px;
 }
+#Table1{
+    background-color: cyan;
+    width: 25%;
+    text-align: left;
+    margin-top:0px;
+    line-height: 30px;
+    float:left;
+    height:1669px;
+}
+.Resume-Head{
+    text-decoration: underline;
+    font-size: 20px;
+    line-height: 40px;
+}
+#Author{
+    text-align: center;
+    color:rgb(204, 0, 255);
+    font-size: 30px;
+}
+#Author-image{
+    position:relative;
+    padding: 15px 15px;
+    padding-bottom:0px;
+    margin-top: 0px;
+    width:90%;
+    margin-bottom: -5px;
+    float:none;
+    
+}
+
+#Table2{
+    position:inherit;
+    float:inherit;
+    width: 75%;
+    background-color:plum;
+    padding: 15px 15px;
+    
+}
+a {
+    color: black;
+    text-decoration:;
+}
+
+.Resume-Company, .Experience-Time, .Resume-College, .Resume-GPA{
+    font-weight:bold;
+}
+.Experience-Time{
+    float:right;
+    text-align: left;
+}
+
+.Work-Title, .Resume-Degree, .Awards{
+    font-style: italic;
+}
+
+
