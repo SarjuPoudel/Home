@@ -1,0 +1,49 @@
+h1  {text-align: center;
+    color:#0000CD;
+    
+}
+
+.Menu {
+    
+    background-color: greenyellow;
+    width:100%;
+    overflow:hidden;
+    text-align:center;
+    margin-left:-1%;
+    padding: 16px;
+    float:center; 
+    
+}
+
+
+
+.Menu a{
+    font-weight:bold;
+    
+    float: center;
+    color:blueviolet;
+    padding: 20px 16px;
+    text-decoration:none;
+    font-size: 20px;
+    position:relative;
+}
+
+
+.Menu a:hover{
+    background-color: #ddd;
+    color:black;
+}
+
+.Menu a:active{
+    background-color:#04AA6D;
+    color:White;
+}
+p {
+    position:relative;
+    z-index: 1000;
+    top:80px;
+}
+.contact-form{
+    padding:10px 10px;
+    line-height: 50px;
+}
