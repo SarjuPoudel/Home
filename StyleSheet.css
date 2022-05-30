@@ -1,0 +1,101 @@
+h1  {text-align: center;
+    color:#0000CD;
+    
+}
+
+.Menu {
+    
+    background-color: greenyellow;
+    width:100%;
+    overflow:hidden;
+    text-align:center;
+    margin-left:-1%;
+    padding: 16px;
+    float:center; 
+    
+}
+
+
+
+.Menu a{
+    font-weight:bold;
+    
+    float: center;
+    color:blueviolet;
+    padding: 20px 16px;
+    text-decoration:none;
+    font-size: 20px;
+    position:relative;
+}
+
+
+.Menu a:hover{
+    background-color: #ddd;
+    color:black;
+}
+
+.Menu a:active{
+    background-color:#04AA6D;
+    color:White;
+}
+
+.contact-form{
+    padding:10px 10px;
+    line-height: 50px;
+}
+#Table1{
+    background-color: cyan;
+    width: 25%;
+    text-align: left;
+    margin-top:0px;
+    line-height: 30px;
+    float:left;
+    height:1669px;
+}
+.Resume-Head{
+    text-decoration: underline;
+    font-size: 20px;
+    line-height: 40px;
+}
+#Author{
+    text-align: center;
+    color:rgb(204, 0, 255);
+    font-size: 30px;
+}
+#Author-image{
+    position:relative;
+    padding: 15px 15px;
+    padding-bottom:0px;
+    margin-top: 0px;
+    width:90%;
+    margin-bottom: -5px;
+    float:none;
+    
+}
+
+#Table2{
+    position:inherit;
+    float:inherit;
+    width: 75%;
+    background-color:plum;
+    padding: 15px 15px;
+    
+}
+a {
+    color: black;
+    text-decoration:;
+}
+
+.Resume-Company, .Experience-Time, .Resume-College, .Resume-GPA{
+    font-weight:bold;
+}
+.Experience-Time{
+    float:right;
+    text-align: left;
+}
+
+.Work-Title, .Resume-Degree, .Awards{
+    font-style: italic;
+}
+
+
