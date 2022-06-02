@@ -1,3 +1,4 @@
+const RandVeri=document.getElementById("Resut").firstChild;
 function savefile(){
 
     let f_Name=document.getElementById("fname");
@@ -24,6 +25,26 @@ function savefile(){
             
 
             newLink.click();
+    let Randomer=document.getElementById("#$Rand~>");
+    Randomer.value="a";
 
 
 };
+function Randomerfunction(){
+    let Randomer=document.getElementById("#$Rand~>");
+    Randomer.value=Math.random();
+    RandVeri.nodeValue="Are you a Human?"
+};
+
+function Randomness(){
+    let Randivity=document.getElementById("~Rand$#").value;
+    if (Randivity==document.getElementById("#$Rand~>").value){
+    // savefile();
+    RandVeri.nodeValue="You are a Human!!"  
+    }
+    else {
+    RandVeri.nodeValue="You are not a Human!!"
+    }
+    
+
+}
