@@ -5,17 +5,17 @@
         <title>Contact</title>
         <link rel="stylesheet" href="StyleSheet.css">
     </head>
-    <body>
+    <body onload="Randomerfunction()">
         <h1>Welcome to Sarju's Website</h1>   
         <div  class="Menu">
             
             <a class="active" href="MyFirstPage.html">Home</a>
             <a href="Resume.html">About Me</a>
             <a #id="services-center" href="EducationAdvising.html">Services</a>
-            <a href="#ContactMe">Contact</a>
+            <a href="Contact.html">Contact</a>
             
         </div>
-        <form class="contact-form" action="" method="post">
+        <form class="contact-form" method="post" action="contactOwnerSP.php">
             <label for="fname">First Name:</label>
             <input type="text" id="fname" name="fname">
             <label for="lname">Last Name:</label>
@@ -24,7 +24,15 @@
             <input type="email" id="email" name="email"><br>
             <label for="message">Message:</label> <br>
             <textarea rows="5" cols="50" id="message" name="message"></textarea><br>
-            <input type="button" id="button" name="button" value="Continue" onclick="savefile()">
+
+            <label for="#$Rand~">Copy Input ==></label>
+            <input type="text" id="#$Rand~>" name="/#$Rand~" disabled><br>
+            <label for="#$Rand~">Paste Input ==></label>
+            <input type="text" id="~Rand$#" name="#$Rand~/" ><br>
+            
+            <div id="Resut"> </div>
+
+            <input type="button" id="button" name="button" value="Continue" onclick="Randomness()"><br>
         </form>
         
        
